@@ -37,5 +37,16 @@ class App extends Component {
       </>
     );
   }
+  // componentDidMount {
+
+  // }
+
+  //tileSwap(clickedIndex, emptyTile)
+    //let newBoard = this.state.newBoard;
+  //let temp = newBoard[clickedIndex];
+  // let newBoard[clickedindex] = newBoard[emptyIndex];
+  // newBoard[emptyIndex]=temp;
+  //this.set.state({empty})
+  
 }
 export default App;

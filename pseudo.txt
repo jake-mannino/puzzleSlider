@@ -1,0 +1,200 @@
+1. puzzle slider
+1 - open Source
+
+
+
+Certain amount of allowed moves depending on where you are
+borders
+allowed moves based on location of tile
+
+react
+hiearchy
+app
+    |
+    board
+    |
+    tile
+data structure
+
+files = [{ array of object }]
+id: to identify tile CaretPosition
+currentpostition:
+
+tileArr = [
+    0{
+        X: 1,
+        Y: 4,
+        disp: 1,
+        swappable: true,
+        current: true,
+        clicked: false,
+    },
+    1{
+        X: 2,
+        Y: 4,
+        disp: 2,
+        swappable: true,
+        current: false,
+        clicked: false,
+    },
+    2{
+        X: 3,
+        Y: 4,
+        disp: 3,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    3{
+        X: 4,
+        Y: 4,
+        disp: 4,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    4{
+        X: 1,
+        Y: 3,
+        disp: 5,
+        swappable: true,
+        current: false,
+        clicked: false,
+    },
+    5{
+        X: 2,
+        Y: 3,
+        disp: 6,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    6{
+        X: 3,
+        Y: 3,
+        disp: 7,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    7{
+        X: 4,
+        Y: 3,
+        disp: 8,
+        swappable: false,
+        clicked: false,
+    },
+    8{
+        X: 1,
+        Y: 2,
+        disp: 9,
+        swappable: false,
+        clicked: false,
+    },
+   9{
+        X: 2,
+        Y: 2,
+        disp: 10,
+        swappable: false,
+        clicked: false,
+    },
+    10{
+        X: 3,
+        Y: 2,
+        disp: 11,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    11{
+        X: 4,
+        Y: 2,
+        disp: 12,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    12{
+        X: 1,
+        Y: 1,
+        disp: 13,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    13{
+
+        X: 2,
+        Y: 1,
+        disp: 14,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    14{
+        X: 3,
+        Y: 1,
+        disp: 15,
+        swappable: false,
+        current: false,
+        clicked: false,
+    },
+    15{
+        X: 4,
+        Y: 1,
+        disp: 16,
+        swappable: false,
+        current: false,
+        clicked: false,
+    }
+]
+if (this.tileArr[i].current: true) {
+    let this.tileArr[i]= currentTile,
+}
+
+onClick, this.tile.clicked = true
+if (tile clicked = true) {
+    let this.tile = clickedTile}
+
+
+//current tile is the empty one
+
+
+let Y - X =  Math.abs(4);
+
+if 
+
+allowed moves
+
+    if(currentTile.props.X - clickedTile.props.X == Math.abs(1) || currentTile.props.Y - clickedTile.props.Y == Math.abs(4)){
+     swappable = true,
+
+
+     onclick, 
+     
+     if swappable : true,
+        swap disp value (props) of currentTile with disp value (props) of clickedTile,
+        swap X && Y values (props) of currentTile with X && Y values (props) of clickedTile,
+
+
+    x(row) = + 1 || - 1
+    y(col) = + 4 || - 4
+
+    randomize()_ new
+        must be a solvable puzzle
+    start with new solution, randomize click game path to new solvable puzzle
+    rendering new is backwards from playing to solve
+
+    valid moves defines in prox to empty space
+    win condition()
+
+    swap()
+
+clickedTile(Index)
+currentTileile(Index)
+
+    reset state button()
+
+    allow moves if 
+current title is on  10 { x: 2, y: 2 }
+    current title inherits these props 
